@@ -3,6 +3,7 @@
   <head>
     <title>Qwirty</title>
     <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="search.css" />
     <link rel="stylesheet" href="sidebar.css" />
     <link rel="stylesheet" href="product.css" />
     <link rel="stylesheet" href="footer.css" />
@@ -10,17 +11,23 @@
   <body>
     <header>
       <nav>
-        <ul>
+        <ul class="navbar">
           <li>Big Deals</li>
           <li>Top Brands</li>
           <li>Suggestions</li>
           <li>Help & Contact</li>
         </ul>
-
-        <a href="#">Log In/Sign Up</a>
-        <a href="#">Account</a>
-        <a href="#">Cart</a>
+        <ul class="login">
+          <a href="#">Log In/Sign Up</a>
+          <a href="#">Account</a>
+          <a href="#">Cart</a>
+        </ul>
       </nav>
+      <section>
+        <h1>Qwirty</h1>
+        <input type="search" id="site-search" name="q" />
+        <button>Search</button>
+      </section>
     </header>
     <main>
       <aside>
