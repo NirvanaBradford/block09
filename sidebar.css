@@ -1,0 +1,32 @@
+main {
+  display: flex;
+  width: 100vw;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  height: 85vh;
+  margin-right: 10px;
+  list-style: none;
+  background-color: white;
+  margin-top: 0px;
+}
+
+.side {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  width: 250px;
+  margin-left: 10px;
+  align-content: center;
+}
+
+.sidebar {
+  background-color: rgb(135, 135, 255);
+  color: white;
+  margin-bottom: 5px;
+  padding: 10px;
+  padding-right: 40px;
+  font-size: large;
+}
