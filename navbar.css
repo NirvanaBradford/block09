@@ -3,7 +3,7 @@ body {
 }
 
 header {
-  width: 100%;
+  width: 100vw;
   display: flex;
   align-items: center;
   background-color: rgb(148, 148, 238);
@@ -13,12 +13,16 @@ nav {
   display: flex;
   align-items: center;
   white-space: nowrap;
+  width: 100vw;
 }
 
 .navbar {
   display: flex;
   list-style: none;
   margin-right: auto;
+  color: white;
+  gap: 10px;
+  margin-left: 15px;
 }
 
 .rightnav {
@@ -28,9 +32,9 @@ nav {
 
 .login {
   color: white;
-  gap: 0.8vw;
+  gap: 10px;
   margin-left: auto;
-  padding-right: 1vw;
+  padding-right: 55px;
 }
 
 a {
