@@ -1,5 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
 body {
-  margin: 0%;
+  background-color: aliceblue;
 }
 
 header {
@@ -13,24 +23,25 @@ nav {
   display: flex;
   align-items: center;
   white-space: nowrap;
-  width: 100vw;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0.5rem;
 }
 
-.navbar {
+ul.navbar {
   display: flex;
   list-style: none;
   margin-right: auto;
   color: white;
-  gap: 10px;
-  margin-left: 15px;
 }
 
-.rightnav {
-  display: flex;
-  margin-left: auto;
+.line {
+  border-right: 2px solid white;
+  padding-right: 5px;
+  padding: 5px;
 }
 
-.login {
+ul.login {
   color: white;
   gap: 10px;
   margin-left: auto;
@@ -40,4 +51,10 @@ nav {
 a {
   color: white;
   font-size: 1em;
+}
+
+@media (min-width: 720px) {
+  .head.nav {
+    display: flex;
+  }
 }

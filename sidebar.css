@@ -1,23 +1,27 @@
 main {
   display: flex;
-  width: 100vw;
+  padding: 0.25rem;
+  padding-right: 0.5rem;
+  background-color: aliceblue;
+  margin-right: 1.9rem;
+  margin-left: 1.9rem;
 }
 
 aside {
   display: flex;
   flex-direction: column;
-  height: 85vh;
+  gap: 0.25rem;
+  padding: 0.25rem;
   margin-right: 10px;
   list-style: none;
-  background-color: white;
   margin-top: 0px;
 }
 
-.side {
+ul.side {
   display: flex;
   flex-direction: column;
   list-style: none;
-  width: 250px;
+  width: 220px;
   margin-left: 10px;
   align-content: center;
 }
@@ -26,7 +30,6 @@ aside {
   background-color: rgb(135, 135, 255);
   color: white;
   margin-bottom: 5px;
-  padding: 10px;
-  padding-right: 40px;
+  padding: 0.5rem;
   font-size: large;
 }

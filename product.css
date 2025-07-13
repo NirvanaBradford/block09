@@ -1,51 +1,51 @@
 article {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  margin-right: 60px;
-  margin-top: 14px;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-auto-rows: 25rem;
+  gap: 0.5rem;
 }
 
 section {
-  background-color: rgb(232, 195, 195);
-  margin-right: 10px;
-  margin-bottom: 10px;
-  padding: 0%;
-  width: 250px;
+  display: flex;
+  flex-direction: column;
 }
 
 h2 {
   background-color: rgb(135, 135, 255);
   color: white;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 5px;
-  margin-top: 0%;
-  margin-bottom: 0%;
-  font-weight: bold;
+  padding: 1rem, 0.5rem;
 }
 
 figure {
-  margin: 0%;
+  flex: 1;
+  height: 0%;
 }
 
 img {
-  width: 250px;
-  height: 130px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 p {
-  margin: 0%;
-  padding-left: 5px;
-  padding: 10px;
+  flex: 1;
+  padding: 0.5rem;
 }
 
 footer {
   background-color: rgb(135, 135, 255);
   color: white;
-  padding-bottom: 4px;
-  padding-top: 1px;
-  padding-left: 5px;
+  padding: 0.5rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-@media (max-width: 599) {
+.Price {
+  display: flex;
+  gap: 1ch;
+}
+
+@media (max-width: 720px) {
 }
