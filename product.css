@@ -13,7 +13,10 @@ section {
 h2 {
   background-color: rgb(135, 135, 255);
   color: white;
-  padding: 1rem, 0.5rem;
+  padding: 0.25rem, 0.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding: 0.5rem;
 }
 
 figure {

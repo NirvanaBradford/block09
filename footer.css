@@ -21,11 +21,11 @@ ul.ulcolor2 {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  padding-top: 3rem;
+  padding-top: 1rem;
 }
 
 .licolor {
-  padding-bottom: 3rem;
+  padding-bottom: 2.5rem;
 }
 
 footer.footercolor {
