@@ -1,29 +1,41 @@
-@media (max-width = 600px) {
-  section {
-    display: flex;
-    background-color: rgb(255, 255, 255);
-    align-items: center;
-    white-space: nowrap;
-    width: 100vw;
-    height: 8vh;
-    margin: 10px;
-  }
+.undernav {
+  display: flex;
+  background-color: white;
+  align-items: center;
+  white-space: nowrap;
+  width: 100vw;
+  height: 8vh;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-  h1 {
-    gap: 10px;
-    margin-right: 30px;
-    margin-left: 10px;
-    font-size: 2em;
-  }
+h1 {
+  gap: 10px;
+  margin-right: 30px;
+  margin-left: 75px;
+  font-size: 2em;
+}
 
-  input {
-    width: 55vw;
-  }
+input {
+  width: 61%;
+  height: 30px;
+  flex: grow auto;
+}
 
-  .Finance {
-    background-color: red;
-    padding: 10px;
-    margin-left: auto;
-    margin-right: 25px;
-  }
+button {
+  background-color: rgb(135, 135, 237);
+  color: white;
+  height: 30px;
+}
+
+.Finance {
+  background-color: red;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: 55px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-decoration: none;
+  font-weight: bold;
 }
